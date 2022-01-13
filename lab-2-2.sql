@@ -9,4 +9,4 @@
 -- | 2020 | Chicago White Sox |
 -- +------+-------------------+
 
-
+select year,name,park from teams where park = "Guaranteed Rate Field";

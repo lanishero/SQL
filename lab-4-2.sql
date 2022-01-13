@@ -24,4 +24,10 @@
 -- | Billy      | Hamilton  |
 -- | Ian        | Happ      |
 
+Select first_name, last_name from players 
+join stats on players.id = stats.player_id
+join teams on teams.id = stats.team_id
+
+where teams.year = 2020 
+and teams.name = "Chicago Cubs";
 
